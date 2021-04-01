@@ -52,7 +52,7 @@ public class Bluck{
             points.add(p);
             channels.add(c);
 
-            Input input = new Input(t, pattern);
+            Input input = new Input(t, pattern,0,0);
 
             p.execute("BoyerMoore");
             c.write(input);
